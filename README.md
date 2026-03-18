@@ -6,7 +6,7 @@ Sistema web interativo para gerenciamento e sorteio inteligente de funções em 
 
 ## 🚀 Sobre o projeto
 
-O **Meraki Cell Manager** é uma aplicação web desenvolvida para organizar e automatizar a distribuição de funções em reuniões de célula, garantindo um sorteio justo, dinâmico e sem repetições indesejadas.
+O **Meraki Sorteio** é uma aplicação web desenvolvida para organizar e automatizar a distribuição de funções em reuniões de célula, garantindo um sorteio justo, dinâmico e sem repetições indesejadas.
 
 O sistema permite o cadastro de participantes, controle de presença e sorteio automático com regras personalizadas.
 
@@ -19,7 +19,6 @@ O sistema permite o cadastro de participantes, controle de presença e sorteio a
 * ✔️ Ativação/desativação de participantes
 * 🎲 Sorteio automático com regras inteligentes
 * 🚫 Evita repetição da mesma função consecutiva
-* 🎤 Função Louvor com 2 participantes
 * 💾 Armazenamento local (LocalStorage)
 * 🎰 Animação estilo cassino
 * 🎉 Efeito de confete ao finalizar sorteio
@@ -47,15 +46,7 @@ O sistema permite o cadastro de participantes, controle de presença e sorteio a
 
 ## 🌐 Acesso ao projeto
 
-👉 (Coloque aqui o link do seu site quando publicar no GitHub Pages)
-
-Exemplo:
-
-```
-https://seunome.github.io/celula-meraki/
-```
-
----
+👉 https://ryannunesemp-web.github.io/sorteiofun-esc-lulameraki/
 
 ## 📸 Preview
 
