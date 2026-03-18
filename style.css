@@ -1,0 +1,94 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  background: linear-gradient(135deg, #f8caca, #f3a6a6);
+}
+
+.container {
+  margin-top: 40px;
+}
+
+.logo {
+  width: 180px;
+  margin-bottom: 10px;
+}
+
+h1 {
+  color: #b85c5c;
+}
+
+input {
+  padding: 10px;
+  border-radius: 20px;
+  border: none;
+}
+
+button {
+  padding: 10px 15px;
+  border-radius: 15px;
+  border: none;
+  background: #b85c5c;
+  color: white;
+  cursor: pointer;
+  margin: 5px;
+  transition: 0.2s;
+}
+
+button:hover {
+  transform: scale(1.05);
+}
+
+#lista {
+  margin-top: 20px;
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  background: #e8a9a1;
+  border-radius: 20px;
+  padding: 10px;
+  height: 250px;
+  overflow-y: auto;
+}
+
+.item {
+  padding: 8px;
+  cursor: pointer;
+}
+
+.selecionado {
+  background: white;
+  color: #b85c5c;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+/* 🎰 EFEITO CASSINO */
+.rodando {
+  animation: piscar 0.1s infinite;
+}
+
+@keyframes piscar {
+  0% { opacity: 1; }
+  50% { opacity: 0.3; }
+  100% { opacity: 1; }
+}
+
+/* 💥 RESULTADO BONITO */
+.resultado {
+  margin-top: 20px;
+  padding: 15px;
+  background: white;
+  border-radius: 20px;
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  display: none;
+}
+
+.resultado h2 {
+  color: #b85c5c;
+}
+
+.resultado div {
+  margin: 5px 0;
+}
